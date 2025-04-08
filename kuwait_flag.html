@@ -1,0 +1,39 @@
+<!-- Score: 600.05 (100% match) -->
+<div></div>
+<style>
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+      linear-gradient(to bottom, 
+                      #13AA4B 100px,
+                      transparent 100px,
+                      transparent 200px,
+                      #EC1E25 200px),
+    linear-gradient(to right, 
+                      #000000 30%, 
+                      #FFFFFF 30%);
+    background-blend-mode: normal;
+  }
+  div {
+    width: 120px;
+    height: 100px;
+    background: 
+      linear-gradient(to bottom left, 
+                      transparent 50%, 
+                      #000000 50%);
+    transform: translate(-140px, -100px)
+  }
+  div::before {
+    position: absolute;
+    content: '';
+    width: 120px;
+    height: 100px;
+    background: 
+      linear-gradient(to top left, 
+                      transparent 50%, 
+                      #000000 50%);
+    transform: translate(0px, 200px);
+  }
+</style>
