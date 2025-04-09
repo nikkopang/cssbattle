@@ -1,0 +1,33 @@
+<!-- Score: 601.49 (100% match) -->
+<div></div>
+<style>
+  body {
+    background: #F58220;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div {
+    width: 260px;
+    height: 100px;
+    background: #F58220;
+    border: 20px solid #FFFFFF;
+  }
+  div::before {
+    position: absolute;
+    content: '';
+    width: 180px;
+    height: 180px;
+    background: #F58220;
+    border-radius: 50%;
+    transform: translate(40px, -40px)
+  }
+  div::after {
+    background: #FFFFFF;
+    content: '';
+    position: absolute;
+    width: 260px;
+    height: 20px;
+    transform: translate(0px, 40px)
+  }
+</style>
